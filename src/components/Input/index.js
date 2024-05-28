@@ -1,9 +1,11 @@
+import { InputContainer } from './styles'
+
 const Input = () => {
-    return (
-      <div className="app">
-  
-      </div>
-    )
-  }
-  
-  export default Input;
+  return (
+    <InputContainer>
+      <Input />
+    </InputContainer>
+  )
+}
+
+export default Input;
